@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripSantuy</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- lightbox -->
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- icon -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="destinasichina.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="#">
+            TripSantuy
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav mx-auto">
+                 <li class="nav-item"><a class="nav-link" href="beranda.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="beranda.html">Indonesia</a></li>
+                <li class="nav-item"><a class="nav-link" href="jepang.html">Jepang</a></li>
+                <li class="nav-item"><a class="nav-link active" href="china.html">China</a></li>
+                <li class="nav-item"><a class="nav-link" href="iceland.html">Iceland</a></li>
+            </ul>
+
+            <div class="d-flex gap-3 align-items-center">
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                <button class="btn btn-warning" type="submit">Search</button>
+      </form>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<!-- hero -->
+<div class="container-fluid banner overflow-hidden position-relative">
+    <!-- Background -->
+    <img src="https://i.pinimg.com/736x/2f/db/a3/2fdba3f1c54079dad02d662ce388d834.jpg" alt="Background" class="img-fluid w-100 h-100 position-absolute top-0 start-0 object-fit-cover">
+
+    <!-- Overlay & Konten -->
+    <div class="container position-relative" style="z-index: 2;">
+        <h2 class="text-light display-5 mb-1">
+           The Great Wall <span>China</span>
+        </h2>
+        <p class="text-light opacity-75 fw-bold mb-4">Wanli Changcheng yang bermakna "Tembok Panjang 10.000 Li"</p>
+        <a href="#eksplor" class="btn btn-tropical">Mulai Petualangan</a>
+    </div>
+</div>
+
+<div class="px-4 px-md-5">
+    <h5 class="text-muted text-center mt-5 mb-4">BY <strong class="fw-bold">TripSantuy</strong></h5><hr>
+    <p class="paragraft" style="text-align: justify; color: var(--deep-navy);">
+         Tembok Besar Tiongkok adalah serangkaian benteng di Tiongkok. Benteng-benteng ini dibangun di sepanjang perbatasan utara yang bersejarah antara negara bagian Tiongkok kuno dan Kekaisaran Tiongkok sebagai perlindungan terhadap berbagai kelompok nomaden dari Stepa Eurasia.
+    </p><hr>
+</div>
+
+ <!-- section experience -->
+<section class="rekomendasi-section py-5">
+
+    <div class="judul1">
+        <h2 class="text-center display-6 fw-bold mb-4" style="color: var(--deep-navy);">
+            Tembok Besar <span style="color: var(--tropical-cyan);">China</span>
+        </h2>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row align-items-center gy-5">
+            <!-- Bagian Teks -->
+            <div class="col-lg-6 text-start pe-lg-5">
+                <h6 class="text-uppercase fw-bold mb-2" style="color: var(--sunset-orange); letter-spacing: 2px;">
+                Daya Tarik Utama
+                </h6>
+                <h3 class="display-6 fw-bold mb-4" style="color: var(--deep-navy);">
+                   Meluncur dengan <span style="color: var(--tropical-cyan);">Toboggan</span>
+                </h3>
+                <p class="lead text-muted mb-4">
+                   Di bagian Mutianyu, Anda bisa menuruni lereng pegunungan menggunakan seluncuran toboggan mirip roller coaster mini yang kecepatannya bisa Anda atur sendiri.
+                </p>
+
+            </div>
+
+            <!-- Bagian Gambar -->
+            <div class="col-lg-6">
+                <div class="image-wrapper position-relative">
+                    <img src="https://i.pinimg.com/736x/aa/65/2f/aa652ffe136bee3e819c521fdb25c227.jpg" 
+                    class="image-rekomendasi img-fluid rounded-5 shadow-lg w-100" 
+                    alt="Keindahan Bawah Laut Bunaken"
+                    style="object-fit: cover; height: 450px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- daftar kegiatan -->
+<section class="kegiatan mt-5 py-5" id="eksplor">
+    <div class="container">
+        <h2 class="text-center display-6 fw-bold mb-4" style="color: var(--deep-navy);">
+            Yang bisa dilakukan di Great Wall of china <span style="color: var(--tropical-cyan);"> Chengdu</span>
+        </h2>
+
+        <div class="row justify-content-center">
+
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card h-100">
+                <a href="https://i.pinimg.com/1200x/7c/c4/f3/7cc4f3b0d69618cf4876f561d27cd75d.jpg" data-lightbox="kegiatan">
+                    <img src="https://i.pinimg.com/1200x/7c/c4/f3/7cc4f3b0d69618cf4876f561d27cd75d.jpg" class="card-img-top" alt="Pulau Labengki">
+                </a>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title mb-3 fw-bold">Berburu Fotografi</h5>
+                    <p class="card-text flex-grow-1">Abadikan<strong>megahnya menara pengawas </strong> (watchtower) yang membentang di atas punggung bukit, terutama saat musim gugur atau musim dingin.</p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card h-100">
+                <a href="https://i.pinimg.com/736x/e9/93/ba/e993ba2350d8d931001544031a6c7afa.jpg" data-lightbox="kegiatan">
+                    <img src="https://i.pinimg.com/736x/e9/93/ba/e993ba2350d8d931001544031a6c7afa.jpg" class="card-img-top" alt="Pulau Widi">
+                </a>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title mb-3 fw-bold">Tur Sepeda Gunung</h5>
+                    <p class="card-text flex-grow-1"> Nikmati pengalaman bersepeda menyusuri <strong>jalur pegunungan</strong> dan pedesaan lokal di kaki Tembok Besar (seperti di area Jinshanling). </p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+       
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card h-100">
+                <a href="https://i.pinimg.com/1200x/fa/ba/36/faba369832cde17c573aafeba3ad9d9c.jpg" data-lightbox="kegiatan">
+                    <img src="https://i.pinimg.com/1200x/fa/ba/36/faba369832cde17c573aafeba3ad9d9c.jpg" class="card-img-top" alt="Wakatobi">
+                </a>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title mb-3 fw-bold">Trekking</h5>
+                    <p class="card-text flex-grow-1">Jelajahi berbagai bagian tembok sesuai stamina Anda. Untuk jalur yang sudah dipugar dengan baik, kunjungi Badaling atau Mutianyu. Bagi yang menyukai <strong>tantangan.</strong></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+ <!-- SECTION FOOTER -->
+<div class="container-fluid py-5 footer">
+    <div class="container">
+
+       
+        <h5 class="text-center text-light mb-3">Temui Kami</h5>
+
+        <div class="d-flex justify-content-center mb-5" style="gap: 70px">
+            <a href="https://facebook.com/username" target="_blank" class="social-icon">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://instagram.com/username" target="_blank" class="social-icon">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://twitter.com/username" target="_blank" class="social-icon">
+                 <i class="bi bi-twitter-x"></i>
+            </a>
+            <a href="https://youtube.com/@username" target="_blank" class="social-icon">
+                <i class="bi bi-youtube"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<footer class="bg-dark text-light py-5">
+    <div class="container">
+        <div class="row text-center text-md-start g-4">
+
+            <div class="col-md-6 col-lg-3">
+                <h5 class="fw-bold mb-3" style="color: var(--tropical-cyan);">TripSantuy</h5>
+                <p class="text-kontak mb-0">Menyediakan pengalaman wisata yang tak terlupakan di berbagai destinasi menarik di Indonesia.</p>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <h6 class="fw-bold mb-3">Navigasi Utama</h6>
+                <ul class="list-unstyled mb-0">
+                    <li class="me-3">
+                        <a href="beranda.html" class="text-nav-bawah">Home</a>
+                    </li>
+                    <li>
+                        <a href="jepang.html" class="text-nav-bawah">Jepang</a>
+                    </li>
+                    <li>
+                        <a href="china.html" class="text-nav-bawah">China</a>
+                    </li>
+                     <li>
+                        <a href="iceland.html" class="text-nav-bawah">Iceland</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <h6 class="fw-bold mb-3">Destinasi</h6>
+                <ul class="list-unstyled mb-0">
+                    <li class="me-3">
+                        <a href="panda.html" class="text-nav-bawah">Pusat Penelitian Panda</a>
+                    </li>
+                    <li>
+                        <a href="The Great Wall" class="text-nav-bawah">The Great Wall</a>
+                    </li>
+                    <li>
+                        <a href="forbidencity.html" class="text-nav-bawah">Forbiden city</a>
+                    </li>
+                    <li>
+                        <a href="zhangjia.html" class="text-nav-bawah">Zhangjiajia National Park</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Kolom 4: Kontak -->
+            <div class="col-md-6 col-lg-3">
+                <h6 class="fw-bold mb-3">Kontak</h6>
+                <ul class="text-kontak list-unstyled mb-0">
+                    <li class="mb-2">
+                        <i class="bi bi-geo-alt-fill me-2" style="color: var(--tropical-cyan);"></i>Jl. Contoh No. 123, Surabaya
+                    </li>
+                    <li class="mb-2">
+                        <i class="bi bi-telephone-fill me-2" style="color: var(--tropical-cyan);"></i>+62 812 3456 7890
+                    </li>
+                    <li>
+                        <i class="bi bi-envelope-fill me-2" style="color: var(--tropical-cyan);"></i>Tripsantuy@email.com
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Garis Pembatas & Copyright -->
+        <hr class="border-secondary mt-5 mb-4">
+        <p class="text-center text-muted small mb-0">
+            &copy; 2026 TripSantuy. All Rights Reserved.
+        </p>
+    </div>
+</footer>
+
+<!-- Tombol Scroll to Top -->
+<button id="scrollToTopBtn" class="scroll-to-top-btn">
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox-plus-jquery.min.js"></script>
+<script src="beranda.js"></script>
+</body>
+</html>
