@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripSantuy</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- lightbox -->
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- icon -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="#">
+            TripSantuy
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link active" href="#">Indonesia</a></li>
+                <li class="nav-item"><a class="nav-link" href="jepang.html">Jepang</a></li>
+                <li class="nav-item"><a class="nav-link" href="china.html">China</a></li>
+                <li class="nav-item"><a class="nav-link" href="iceland.html">Iceland</a></li>
+            </ul>
+
+            <div class="d-flex gap-3 align-items-center">
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                <button class="btn btn-warning" type="submit">Search</button>
+      </form>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<!-- hero -->
+<div class="container-fluid banner overflow-hidden position-relative">
+    <!-- Video Background -->
+    <video autoplay muted loop playsinline class="video-bg">
+        <source src="bannerborobudor.mp4" type="video/mp4">
+    </video>
+
+    <!-- Overlay & Konten -->
+    <div class="container text-center position-relative" style="z-index: 2;">
+        <h2 class="text-light display-5 mb-1">
+            Sudah Siap <span>Keliling Indonesia?</span>
+        </h2>
+        <p class="text-light opacity-75 fw-bold mb-4">Temukan destinasi impianmu dengan cara yang paling santuy.</p>
+        <a href="#eksplor" class="btn btn-tropical">Mulai Petualangan</a>
+    </div>
+</div>
+
+<!-- selamat datang indonesia -->
+<section class="tentang-indonesia mb-5">
+    <div class="container">
+        <div class="selamat-datang">
+        <h2 class="text-center display-6 fw-bold mb-4" style="color: var(--deep-navy);">
+            Wel<span style="color: var(--tropical-cyan);">come</span>
+        </h2>
+    </div>
+
+        <div class="row align-items-center gy-5">
+            <div class="col-lg-6">
+                <img src="https://i.pinimg.com/736x/9f/3e/c8/9f3ec8cdd300279d269936084a386c4a.jpg" alt="Tentang Indonesia" class="img-fluid rounded-5 shadow-lg w-100">
+            </div>
+            <div class="col-lg-6 text-start ps-lg-5">
+                <h6 class="text-uppercase fw-bold mb-2" style="color: var(--sunset-orange); letter-spacing: 2px;">
+                    Selamat Datang di Indonesia
+                </h6>
+                <h3 class="display-6 fw-bold mb-4" style="color: var(--deep-navy);">
+                   Negeri dengan Keajaiban Tak Terbatas
+                </h3>
+                <p class="lead text-muted mb-4">
+                    Temukan keajaiban budaya, teknologi, dan alam yang berpadu sempurna di Indonesia, destinasi yang selalu memukau dengan pesonanya yang unik.
+                </p>
+                <a href="#eksplor" class="btn btn-tropical px-5 py-3 fw-bold">Jelajahi Sekarang</a>
+            </div>
+    </div>
+</section>
+
+<!-- destinasi populer di indonesia -->
+<div class="container text-center my-5" id="eksplor">
+    <h2 class="mb-3">Destinasi Populer di <span style="color: var(--sunset-orange);">Indonesia</span></h2>
+    <p class="mb-4">Jelajahi keindahan alam dan budaya Indonesia yang memukau dengan cara yang paling santuy.</p>
+</div>
+
+
+<div class="container my-5">
+  <div class="row g-3">
+    <div class="col-md-4">
+      <div class="card-overlay position-relative overflow-hidden rounded-4">
+        <img src="https://i.pinimg.com/736x/2b/c7/b5/2bc7b5f8a620b2b9098385504f7fa786.jpg"
+             class="card-img-overlay-bg"
+             alt="Destinasi Bali">
+        <div class="card-overlay-content position-absolute bottom-0 start-0 w-100 p-4 text-white">
+          <h5 class="card-title mb-2">Bali</h5>
+          <p class="card-text text-light fw-bold mb-3">
+            Surga wisata dengan pantai cantik, budaya, dan alam yang memukau.
+          </p>
+          <a href="bali.html" class="btn btn-tropical">Lebih Lanjut</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card-overlay position-relative overflow-hidden rounded-4">
+        <img src="https://i.pinimg.com/736x/97/59/a5/9759a5b246e2068c587a1b5ba2a3bb61.jpg"
+             class="card-img-overlay-bg"
+             alt="Destinasi Borobudur">
+        <div class="card-overlay-content position-absolute bottom-0 start-0 w-100 p-4 text-white">
+          <h5 class="card-title mb-2">Borobudur</h5>
+          <p class="card-text text-light fw-bold mb-3">
+            Candi Budha tertua dan terbesar di dunia dengan arsitektur yang menakjubkan.
+          </p>
+         <a href="borobudor.html" class="btn btn-tropical">Lebih Lanjut</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card-overlay position-relative overflow-hidden rounded-4">
+        <img src="https://i.pinimg.com/1200x/02/46/f7/0246f7c0f8feb49d74e77e601e1e171f.jpg"
+             class="card-img-overlay-bg"
+             alt="Destinasi Labuan Bajo">
+        <div class="card-overlay-content position-absolute bottom-0 start-0 w-100 p-4 text-white">
+          <h5 class="card-title mb-2">Labuan Bajo</h5>
+          <p class="card-text text-light fw-bold mb-3">
+            Tempat wisata pulau komodo dan panorama laut yang eksotis.
+          </p>
+          <a href="labuanbajo.html" class="btn btn-tropical">Lebih Lanjut</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Rekomendasi wisata -->
+<section class="rekomendasi-section py-5">
+    <div class="container">
+        <div class="row align-items-center gy-5">
+
+    <div class="rekomendasi">
+        <h2 class="text-center display-6 fw-bold mb-4" style="color: var(--deep-navy);">
+            Eksplorasi Taman Nasional <span style="color: var(--tropical-cyan);">Bunaken</span>
+        </h2>
+    </div>
+
+
+            <!-- Bagian Teks -->
+            <div class="col-lg-6 text-start pe-lg-5">
+                <h6 class="text-uppercase fw-bold mb-2" style="color: var(--sunset-orange); letter-spacing: 2px;">
+                    Surga Bawah Laut
+                </h6>
+                <h3 class="display-6 fw-bold mb-4" style="color: var(--deep-navy);">
+                    Eksplorasi Taman Nasional <span style="color: var(--tropical-cyan);">Bunaken</span>
+                </h3>
+                <p class="lead text-muted mb-4">
+                    Selami keajaiban dunia air dengan dinding karang raksasa dan ribuan spesies ikan warna-warni yang hanya bisa Anda temukan di Sulawesi Utara.
+                </p>
+                
+                <ul class="list-unstyled mb-4 custom-list">
+                    <li class="mb-3 d-flex align-items-center">
+                        <i class="bi bi-water me-3" style="color: var(--tropical-cyan);"></i> 
+                        Diving & Snorkeling di Spot Kelas Dunia
+                    </li>
+                    <li class="mb-3 d-flex align-items-center">
+                        <i class="bi bi-camera-reels-fill me-3" style="color: var(--tropical-cyan);"></i> 
+                        Fotografi Makro Bawah Laut yang Menakjubkan
+                    </li>
+                    <li class="mb-3 d-flex align-items-center">
+                        <i class="bi bi-sunset-fill me-3" style="color: var(--tropical-cyan);"></i> 
+                        Menikmati Sunset Romantis di Tepi Pantai
+                    </li>
+                </ul>
+                
+                <div class="mt-4">
+                    <a href="tamanbunaken.html" class="btn btn-tropical px-5 py-3 fw-bold">Lihat Selengkapnya</a>
+                </div>
+            </div>
+
+            <!-- Bagian Gambar -->
+            <div class="col-lg-6">
+                <div class="image-wrapper position-relative">
+                    <img class="image-rekomendasi" src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                         class="img-fluid rounded-5 shadow-lg w-100" 
+                         alt="Keindahan Bawah Laut Bunaken"
+                         style="object-fit: cover; height: 450px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- section Hiddengem -->
+<section class="hiddengem-section py-5 bg-light">
+    <div class="container text-center">
+        <h3 class="display-6 fw-bold mb-4" style="color: var(--deep-navy);">
+            Keindahan Yang <span style="color: var(--tropical-cyan);">Tersembunyi</span>
+        </h3>
+        <p class="lead text-muted mb-4">
+            Di mana waktu seakan berhenti dan hanya ada harmoni antara Anda dan keindahan yang belum terjamah
+        </p>
+        <h6 class="text-uppercase fw-bold mb-2" style="color: var(--sunset-orange); letter-spacing: 2px;">
+            Hidden Gem
+        </h6>
+    </div>
+
+  <div class="container my-5 position-relative">
+
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="row justify-content-center mb-4">
+            <div class="col-sm-4 col-md3 col-lg-2 mb-2">
+                <div class="btn btn-outline-warning w-100 fs-5 filter-btn active" data-target="wisatabahari">Wisata Bahari</div>
+            </div>
+            <div class="col-sm-4 col-md3 col-lg-2 mb-2">
+                <div class="btn btn-outline-warning w-100 fs-5 filter-btn" data-target="wisatapegunungan">Wisata Pegunungan</div>
+            </div>
+            <div class="col-sm-4 col-md3 col-lg-2 mb-2">
+                <div class="btn btn-outline-warning w-100 fs-5 filter-btn" data-target="tamannasional">Taman Nasional</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SEMUA PROMO (4 CARD) -->
+<div id="wisatabahari" class="hiddengem-section">
+    <div class="row justify-content-center">
+        <!-- Card 1 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card h-100">
+                <a href="https://i.pinimg.com/1200x/cc/23/68/cc2368c4edcf64769910c381a7683dbd.jpg" data-lightbox="wisatabahari">
+                    <img src="https://i.pinimg.com/1200x/cc/23/68/cc2368c4edcf64769910c381a7683dbd.jpg" class="card-img-top" alt="Pulau Labengki">
+                </a>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title mb-3 fw-bold">Pulau Labengki</h5>
+                    <p class="card-text flex-grow-1">Sering dijuluki <strong>'Mini Raja Ampat'</strong>, memanjakan mata dengan Blue Lagoon Mahumalalang yang ikonik.</p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card h-100">
+                <a href="https://i.pinimg.com/1200x/31/18/32/3118322f03150c46880f85e5c1083cc0.jpg" data-lightbox="wisatabahari">
+                    <img src="https://i.pinimg.com/1200x/31/18/32/3118322f03150c46880f85e5c1083cc0.jpg" class="card-img-top" alt="Pulau Widi">
+                </a>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title mb-3 fw-bold">Pulau Widi</h5>
+                    <p class="card-text flex-grow-1">Sering disebut <strong>'Maladewa-nya Indonesia'</strong> dengan pasir halus yang sangat cocok untuk snorkeling.</p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 (Sudah Disamakan) -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card h-100">
+                <a href="https://i.pinimg.com/1200x/09/c7/83/09c78343062c8d3359075c8b76150ed9.jpg" data-lightbox="wisatabahari">
+                    <img src="https://i.pinimg.com/1200x/09/c7/83/09c78343062c8d3359075c8b76150ed9.jpg" class="card-img-top" alt="Wakatobi">
+                </a>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title mb-3 fw-bold">Wakatobi</h5>
+                    <p class="card-text flex-grow-1">Surga bawah laut dengan <strong>terumbu karang eksotis</strong> dan kejernihan air yang tiada duanya.</p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card h-100">
+                <a href="https://i.pinimg.com/1200x/e7/12/09/e71209c9d26c32717e96d31329ffe5d0.jpg" data-lightbox="wisatabahari">
+                    <img src="https://i.pinimg.com/1200x/e7/12/09/e71209c9d26c32717e96d31329ffe5d0.jpg" class="card-img-top" alt="Gili Trawangan">
+                </a>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title mb-3 fw-bold">Gili Trawangan</h5>
+                    <p class="card-text flex-grow-1">Destinasi populer dengan <strong>pantai pasir putih</strong> yang tenang dan bebas dari kendaraan bermotor.</p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="wisatapegunungan" class="hiddengem-section" style="display: none;">
+    <div class="row justify-content-center">
+
+        <!-- 1 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card">
+                <a href="https://i.pinimg.com/1200x/4e/e9/25/4ee925e435e57c9c5098342275b19b33.jpg" data-lightbox="wisatapegunungan">
+                  <img src="https://i.pinimg.com/1200x/4e/e9/25/4ee925e435e57c9c5098342275b19b33.jpg" class="card-img-top" alt="gunung rinjani">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Gunung Rinjani</h5>
+                    <p class="card-text">Menawarkan panorama danau Segara Anak yang ikonik di Nusa Tenggara.</p></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card">
+                <a href="https://i.pinimg.com/736x/35/f6/30/35f6301f99a2b8cef43f309612abd604.jpg" data-lightbox="wisatapegunungan">
+                    <img src="https://i.pinimg.com/736x/35/f6/30/35f6301f99a2b8cef43f309612abd604.jpg" class="card-img-top" alt="Gunung Penanggungan">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Gunung Penanggungan</h5>
+                    <p class="card-text">Gunung bersejarah dengan ribuan situs candi peninggalan.</p></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card">
+                <a href="https://i.pinimg.com/1200x/c3/1a/03/c31a030373de29446e2caf31291063f2.jpg" data-lightbox="wisatapegunungan">
+                    <img src="https://i.pinimg.com/1200x/c3/1a/03/c31a030373de29446e2caf31291063f2.jpg" class="card-img-top" alt="Gunung Kerinci">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Gunung Kerinci</h5>
+                    <p class="card-text">Atap Sumatra yang megah dengan pemandangan alam tropis yang asri.</p></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card">
+                <a href="https://i.pinimg.com/1200x/d2/b5/e4/d2b5e40304348d7e5ffaab892c0e7126.jpg" data-lightbox="wisatapegunungan">
+                    <img src="https://i.pinimg.com/1200x/d2/b5/e4/d2b5e40304348d7e5ffaab892c0e7126.jpg" class="card-img-top" alt="Gunung Puncak Jaya">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Gunung Puncak Jaya</h5>
+                    <p class="card-text">Puncak tertinggi di Indonesia yang terkenal dengan salju abadinya.</p></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="tamannasional" class="hiddengem-section" style="display: none;">
+    <div class="row justify-content-center">
+
+<!-- 1 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card">
+                <a href="https://i.pinimg.com/1200x/8d/ce/01/8dce016506978851bc36fef4beebf6f5.jpg" data-lightbox="tamannasional">
+                    <img src="https://i.pinimg.com/1200x/8d/ce/01/8dce016506978851bc36fef4beebf6f5.jpg" class="card-img-top" alt="Bromo Tengger Semeru">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Bromo Tengger Semeru</h5>
+                    <p class="card-text">Keindahan kaldera pasir dan matahari terbit yang memukau.</p></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card">
+                <a href="https://i.pinimg.com/1200x/8c/2a/f4/8c2af4c571e01627e3e37976acf005fa.jpg" data-lightbox="tamannasional">
+                    <img src="https://i.pinimg.com/1200x/8c/2a/f4/8c2af4c571e01627e3e37976acf005fa.jpg" class="card-img-top" alt="Ujung Kulon">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Ujung Kulon</h5>
+                    <p class="card-text">Rumah terakhir bagi Badak Jawa yang langka di ujung pulau Jawa.</p></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card">
+                <a href="https://i.pinimg.com/1200x/d4/9b/37/d49b37af51be7d32b9729fa61eedec6a.jpg" data-lightbox="tamannasional">
+                    <img src="https://i.pinimg.com/1200x/d4/9b/37/d49b37af51be7d32b9729fa61eedec6a.jpg" class="card-img-top" alt="Pulau Komodo">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold   ">Pulau Komodo</h5>
+                    <p class="card-text">Habitat asli kadal raksasa purba dengan pemandangan bukit eksotis.</p></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card">
+                <a href="https://i.pinimg.com/1200x/10/a7/72/10a772c4bf9a08e256acebe676c4c446.jpg" data-lightbox="tamannasional">
+                    <img src="https://i.pinimg.com/1200x/10/a7/72/10a772c4bf9a08e256acebe676c4c446.jpg" class="card-img-top" alt="Tanjung Puting">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Tanjung Puting</h5>
+                    <p class="card-text">Pusat konservasi Orangutan dengan petualangan menyusuri sungai.</p></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+ <!-- SECTION FOOTER -->
+<div class="container-fluid py-5 footer">
+    <div class="container">
+
+       
+        <h5 class="text-center text-light mb-3">Temui Kami</h5>
+
+        <div class="d-flex justify-content-center mb-5" style="gap: 70px">
+            <a href="https://facebook.com/username" target="_blank" class="social-icon">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://instagram.com/username" target="_blank" class="social-icon">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://twitter.com/username" target="_blank" class="social-icon">
+                 <i class="bi bi-twitter-x"></i>
+            </a>
+            <a href="https://youtube.com/@username" target="_blank" class="social-icon">
+                <i class="bi bi-youtube"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<footer class="bg-dark text-light py-5">
+    <div class="container">
+        <div class="row text-center text-md-start g-4">
+
+            <div class="col-md-6 col-lg-3">
+                <h5 class="fw-bold mb-3" style="color: var(--tropical-cyan);">TripSantuy</h5>
+                <p class="text-kontak mb-0">Menyediakan pengalaman wisata yang tak terlupakan di berbagai destinasi menarik di Indonesia.</p>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <h6 class="fw-bold mb-3">Navigasi Utama</h6>
+                <ul class="list-unstyled mb-0">
+                    <li class="me-3">
+                        <a href="beranda.html" class="text-nav-bawah">Home</a>
+                    </li>
+                    <li>
+                        <a href="jepang.html" class="text-nav-bawah">Jepang</a>
+                    </li>
+                    <li>
+                        <a href="china.html" class="text-nav-bawah">China</a>
+                    </li>
+                     <li>
+                        <a href="" class="text-nav-bawah">Iceland</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <h6 class="fw-bold mb-3">Destinasi</h6>
+                <ul class="list-unstyled mb-0">
+                    <li class="me-3">
+                        <a href="bali.html" class="text-nav-bawah">Bali</a>
+                    </li>
+                    <li>
+                        <a href="labuanbajo.html" class="text-nav-bawah">Labuan Bajo</a>
+                    </li>
+                    <li>
+                        <a href="borobudor.html" class="text-nav-bawah">Borobudur</a>
+                    </li>
+                    <li>
+                        <a href="tamanbunaken.html" class="text-nav-bawah">Taman Bunaken</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Kolom 4: Kontak -->
+            <div class="col-md-6 col-lg-3">
+                <h6 class="fw-bold mb-3">Kontak</h6>
+                <ul class="text-kontak list-unstyled mb-0">
+                    <li class="mb-2">
+                        <i class="bi bi-geo-alt-fill me-2" style="color: var(--tropical-cyan);"></i>Jl. Contoh No. 123, Surabaya
+                    </li>
+                    <li class="mb-2">
+                        <i class="bi bi-telephone-fill me-2" style="color: var(--tropical-cyan);"></i>+62 812 3456 7890
+                    </li>
+                    <li>
+                        <i class="bi bi-envelope-fill me-2" style="color: var(--tropical-cyan);"></i>Tripsantuy@email.com
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Garis Pembatas & Copyright -->
+        <hr class="border-secondary mt-5 mb-4">
+        <p class="text-center text-muted small mb-0">
+            &copy; 2026 TripSantuy. All Rights Reserved.
+        </p>
+    </div>
+</footer>
+
+<!-- Tombol Scroll to Top -->
+<button id="scrollToTopBtn" class="scroll-to-top-btn">
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox-plus-jquery.min.js">
+</script>
+
+<script src="beranda.js"></script>
+</body>
+</html>
