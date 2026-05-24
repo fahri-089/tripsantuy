@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripSantuy</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- lightbox -->
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- icon -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="china.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="#">
+            TripSantuy
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="beranda.html">Indonesia</a></li>
+                <li class="nav-item"><a class="nav-link" href="jepang.html">Jepang</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#">China</a></li>
+                <li class="nav-item"><a class="nav-link" href="iceland.html">Iceland</a></li>
+            </ul>
+
+            <div class="d-flex gap-3 align-items-center">
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                <button class="btn btn-warning" type="submit">Search</button>
+      </form>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<!-- hero -->
+<div class="container-fluid banner overflow-hidden position-relative">
+    <!-- Video Background -->
+    <video autoplay muted loop playsinline class="video-bg">
+        <source src="CHINA _ Cinematic Video (1).mp4" type="video/mp4">
+    </video>
+
+    <!-- Overlay & Konten -->
+    <div class="container position-relative" style="z-index: 2;">
+        <h2 class="text-light display-5 mb-1">
+            Sudah Siap <br>berkeliling <br><span>China</span>
+        </h2>
+        <p class="text-light opacity-75 fw-bold mb-4">Temukan destinas<br> yang belum pernah <br>kamu temukan sebelumnya.</p>
+        <a href="#eksplor" class="btn btn-tropical">Mulai Petualangan</a>
+    </div>
+</div>
+
+<!-- selamat datang china -->
+<section class="tentang-china mb-5">
+    <div class="container">
+        <div class="selamat-datang">
+        <h2 class="text-center display-6 fw-bold mb-4" style="color: var(--deep-navy);">
+            Wel<span style="color: var(--tropical-cyan);">come</span>
+        </h2>
+    </div>
+
+        <div class="row align-items-center gy-5">
+            <div class="col-lg-6">
+                <img src="https://i.pinimg.com/1200x/10/4f/e5/104fe5d8167d22e69fadbc53360f34e6.jpg" alt="Tentang Indonesia" class="img-fluid rounded-5 shadow-lg w-100">
+            </div>
+            <div class="col-lg-6 text-start ps-lg-5">
+                <h6 class="text-uppercase fw-bold mb-2" style="color: var(--sunset-orange); letter-spacing: 2px;">
+                    Selamat Datang di China
+                </h6>
+                <h3 class="display-6 fw-bold mb-4" style="color: var(--deep-navy);">
+                  Negeri Merah & Dengan Simbol Naga
+                </h3>
+                <p class="lead text-muted mb-4">
+                    Temukan keajaiban budaya, teknologi, dan alam yang berpadu sempurna di China, destinasi yang selalu memukau dengan pesonanya yang unik.
+                </p>
+                <a href="#eksplor" class="btn btn-tropical px-5 py-3 fw-bold">Jelajahi Sekarang</a>
+            </div>
+    </div>
+</section>
+
+<!-- destinasi populer di China -->
+<div class="container text-center my-5" id="eksplor">
+    <h2 class="mb-3">Destinasi Populer di <span style="color: var(--sunset-orange);">China</span></h2>
+    <p class="mb-4">Jelajahi keindahan alam dan budaya China dengan cara yang santuy.</p>
+</div>
+
+
+<div class="container my-5">
+  <div class="row g-3">
+    <div class="col-md-4">
+      <div class="card-overlay position-relative overflow-hidden rounded-4">
+        <img src="https://i.pinimg.com/736x/d8/f5/79/d8f579c57ae24802deea580b1bcef0fe.jpg"
+             class="card-img-overlay-bg"
+             alt="Destinasi Bali">
+        <div class="card-overlay-content position-absolute bottom-0 start-0 w-100 p-4 text-white">
+          <h5 class="card-title mb-2">The Great Wall of China</h5>
+          <p class="card-text text-light fw-bold mb-3">
+            Bagian Tembok Besar di Mutianyu dan Badaling adalah yang paling populer diakses dari Beijing.
+          </p>
+          <a href="thegreatwall.html" class="btn btn-tropical">Lebih Lanjut</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card-overlay position-relative overflow-hidden rounded-4">
+        <img src="https://i.pinimg.com/736x/f5/89/5e/f5895e6ff21240abcbb607a56ce67f17.jpg"
+             class="card-img-overlay-bg"
+             alt="Destinasi Borobudur">
+        <div class="card-overlay-content position-absolute bottom-0 start-0 w-100 p-4 text-white">
+          <h5 class="card-title mb-2">The Forbiden City</h5>
+          <p class="card-text text-light fw-bold mb-3">
+            Kompleks istana kekaisaran megah dari masa Dinasti Ming dan Qing di pusat kota Beijing.
+          </p>
+         <a href="forbidencity.html" class="btn btn-tropical">Lebih Lanjut</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card-overlay position-relative overflow-hidden rounded-4">
+        <img src="https://i.pinimg.com/1200x/a2/5e/0a/a25e0a0bb1ce4e7ee03fc9a8a49ed80e.jpg"
+             class="card-img-overlay-bg"
+             alt="Destinasi Labuan Bajo">
+        <div class="card-overlay-content position-absolute bottom-0 start-0 w-100 p-4 text-white">
+          <h5 class="card-title mb-2">Zhangjiajie National Forest Park</h5>
+          <p class="card-text text-light fw-bold mb-3">
+             Taman nasional di Provinsi Hunan yang terkenal dengan pilar batu kuarsit vertikal yang menjulang tinggi
+          </p>
+          <a href="" class="btn btn-tropical">Lebih Lanjut</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Rekomendasi wisata -->
+<section class="rekomendasi-section py-5">
+    <div class="container">
+        <div class="row align-items-center gy-5">
+
+    <div class="rekomendasi">
+        <h2 class="text-center display-6 fw-bold mb-4" style="color: var(--deep-navy);">
+            Eksplorasi Kota <span style="color: var(--tropical-cyan);">Chengdu</span>
+        </h2>
+    </div>
+
+
+            <!-- Bagian Teks -->
+            <div class="col-lg-6 text-start pe-lg-5">
+                <h6 class="text-uppercase fw-bold mb-2" style="color: var(--sunset-orange); letter-spacing: 2px;">
+                    Pencinta Satwa
+                </h6>
+                <h3 class="display-6 fw-bold mb-4" style="color: var(--deep-navy);">
+                    Pusat Penelitian <span style="color: var(--tropical-cyan);">Panda</span>
+                </h3>
+                <p class="lead text-muted mb-4">
+                    Kunjungi Pusat Penelitian Panda Raksasa (Chengdu Research Base) untuk melihat langsung hewan ikonik China ini.
+                </p>
+                
+                <ul class="list-unstyled mb-4 custom-list">
+                    <li class="mb-3 d-flex align-items-center">
+                        <i class="bi bi-camera-fill me-3" style="color: var(--tropical-cyan);"></i> 
+                        Saksikan panda raksasa dan panda merah yang menggemaskan.
+                    </li>
+                    <li class="mb-3 d-flex align-items-center">
+                        <i class="bi bi-bank me-3" style="color: var(--tropical-cyan);"></i> 
+                       Pelajari sejarah, anatomi, hingga upaya konservasi modern untuk menyelamatkan spesies ini.
+                    </li>
+                    <li class="mb-3 d-flex align-items-center">
+                        <i class="bi bi-person-walking me-3" style="color: var(--tropical-cyan);"></i> 
+                       Area ini sangat hijau dan mirip habitat alami dengan danau dan hutan bambu.
+                    </li>
+                </ul>
+                
+                <div class="mt-4">
+                    <a href="panda.html" class="btn btn-tropical px-5 py-3 fw-bold">Lihat Selengkapnya</a>
+                </div>
+            </div>
+
+            <!-- Bagian Gambar -->
+            <div class="col-lg-6">
+                <div class="image-wrapper position-relative">
+                    <img class="image-rekomendasi" src="https://i.pinimg.com/1200x/b4/17/33/b417335be40bbf1ce165ca0ab1bd87b8.jpg" 
+                         class="img-fluid rounded-5 shadow-lg w-100" 
+                         alt="Keindahan Bawah Laut Bunaken"
+                         style="object-fit: cover; height: 450px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- section Hiddengem -->
+<section class="hiddengem-section py-5 bg-light">
+    <div class="container text-center">
+        <h3 class="display-6 fw-bold mb-4" style="color: var(--deep-navy);">
+            Keindahan Yang <span style="color: var(--tropical-cyan);">Tersembunyi</span>
+        </h3>
+        <p class="lead text-muted mb-4">
+            Di mana waktu seakan berhenti dan hanya ada harmoni antara Anda dan keindahan yang belum terjamah
+        </p>
+        <h6 class="text-uppercase fw-bold mb-2" style="color: var(--sunset-orange); letter-spacing: 2px;">
+            Hidden Gem
+        </h6>
+    </div>
+
+  <div class="container my-5 position-relative">
+
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="row justify-content-center mb-4">
+            <div class="col-sm-4 col-md3 col-lg-2 mb-2">
+                <div class="btn btn-outline-warning w-100 fs-5 filter-btn active" data-target="wisatabahari">Wisata Sejarah</div>
+            </div>
+            <div class="col-sm-4 col-md3 col-lg-2 mb-2">
+                <div class="btn btn-outline-warning w-100 fs-5 filter-btn" data-target="wisatapegunungan">Wisata Modern</div>
+            </div>
+            <div class="col-sm-4 col-md3 col-lg-2 mb-2">
+                <div class="btn btn-outline-warning w-100 fs-5 filter-btn" data-target="tamannasional">Wisata Alam Menakjubkan</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="wisatabahari" class="hiddengem-section">
+    <div class="row justify-content-center">
+        <!-- Card 1 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card h-100">
+                <a href="https://i.pinimg.com/1200x/39/d7/b7/39d7b7ec7869b6f0ad35141802142ab9.jpg" data-lightbox="wisatabahari">
+                    <img src="https://i.pinimg.com/1200x/39/d7/b7/39d7b7ec7869b6f0ad35141802142ab9.jpg" class="card-img-top" alt="Temple of Heaven">
+                </a>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title mb-3 fw-bold">Temple of Heaven</h5>
+                    <p class="card-text flex-grow-1"> Tempat <strong>ibadah tempat kaisar</strong> memohon panen, terkenal dengan desain arsitektur kayu tanpa paku yang menakjubkan. </p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card h-100">
+                <a href="https://i.pinimg.com/1200x/22/ad/f3/22adf32cd880b3d96c7d8377114e4ca3.jpg" data-lightbox="wisatabahari">
+                    <img src="https://i.pinimg.com/1200x/22/ad/f3/22adf32cd880b3d96c7d8377114e4ca3.jpg" class="card-img-top" alt="Terracotta Army">
+                </a>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title mb-3 fw-bold">Terracotta Army</h5>
+                    <p class="card-text flex-grow-1">Situs makam megah Kaisar <strong>Qin Shi Huang</strong> (kaisar pertama China) yang dijaga oleh ribuan patung pasukan dan kereta perang seukuran aslinya berusia 2.200 tahun.</p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 (Sudah Disamakan) -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card h-100">
+                <a href="https://i.pinimg.com/736x/ef/c3/4d/efc34d6bc5a814d4dd5187512fbaa5ad.jpg" data-lightbox="wisatabahari">
+                    <img src="https://i.pinimg.com/736x/ef/c3/4d/efc34d6bc5a814d4dd5187512fbaa5ad.jpg" class="card-img-top" alt="Dunhuang">
+                </a>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title mb-3 fw-bold">Dunhuang</h5>
+                    <p class="card-text flex-grow-1"> Dikenal sebagai Gua <strong>Seribu Buddha</strong>, situs ini menyimpan patung-patung dan lukisan dinding bersejarah yang merepresentasikan kesenian Buddha spektakuler. </p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card h-100">
+                <a href="https://i.pinimg.com/236x/f8/6c/a7/f86ca783c906046cad9aff30ad386a60.jpg" data-lightbox="wisatabahari">
+                    <img src="https://i.pinimg.com/236x/f8/6c/a7/f86ca783c906046cad9aff30ad386a60.jpg" class="card-img-top" alt="Gili Trawangan">
+                </a>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title mb-3 fw-bold">Kota Kuno Pingyao</h5>
+                    <p class="card-text flex-grow-1">Kota yang paling terpelihara dengan baik dari abad ke-14, dulunya berfungsi sebagai <strong>pusat keuangan utama</strong> pada masa Dinasti Ming dan Qing.</p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="wisatapegunungan" class="hiddengem-section" style="display: none;">
+    <div class="row justify-content-center">
+
+        <!-- 1 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card">
+                <a href="https://i.pinimg.com/1200x/da/8d/28/da8d28751da2f53798fc22e1c5f50437.jpg" data-lightbox="wisatapegunungan">
+                  <img src="https://i.pinimg.com/1200x/da/8d/28/da8d28751da2f53798fc22e1c5f50437.jpg" class="card-img-top" alt="gunung rinjani">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Shanghai Disneyland</h5>
+                    <p class="card-text"> Destinasi hiburan kelas dunia yang menampilkan kastel Disney terbesar dan berbagai wahana mutakhir seperti <strong>TRON Lightcycle Power Run.</strong> </p></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card">
+                <a href="https://i.pinimg.com/736x/34/a5/69/34a569d5d013e86f7d4a21cd152d4732.jpg" data-lightbox="wisatapegunungan">
+                    <img src="https://i.pinimg.com/736x/34/a5/69/34a569d5d013e86f7d4a21cd152d4732.jpg" class="card-img-top" alt="Gunung Penanggungan">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Window of the World</h5>
+                    <p class="card-text"> Taman hiburan berskala besar di mana Anda dapat melihat miniatur dari <strong>130 tempat wisata</strong> paling terkenal di dunia dalam satu hari.</p></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card">
+                <a href="https://i.pinimg.com/1200x/fa/41/58/fa415867ecf0d82a962e4b777563cacf.jpg" data-lightbox="wisatapegunungan">
+                    <img src="https://i.pinimg.com/1200x/fa/41/58/fa415867ecf0d82a962e4b777563cacf.jpg" class="card-img-top" alt="Gunung Kerinci">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Hongya Cave</h5>
+                    <p class="card-text">Kompleks bangunan bertingkat bergaya tradisional yang diterangi lampu neon LED modern yang memukau pada malam hari, terinspirasi dari film anime <strong>Spirited Away.</strong></p></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card">
+                <a href="https://i.pinimg.com/736x/e3/0b/b6/e30bb6882869eea8c290454cbc845782.jpg" data-lightbox="wisatapegunungan">
+                    <img src="https://i.pinimg.com/736x/e3/0b/b6/e30bb6882869eea8c290454cbc845782.jpg" class="card-img-top" alt="Gunung Puncak Jaya">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Beijing Olympic Park</h5>
+                    <p class="card-text">Area bekas <strong>Olimpiade 2008</strong> yang kini menjadi pusat wisata. Terdapat Stadion Nasional <strong>(Bird's Nest)</strong> dengan desain baja ikonis dan Water Cube yang disulap menjadi taman air modern</p></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="tamannasional" class="hiddengem-section" style="display: none;">
+    <div class="row justify-content-center">
+
+<!-- 1 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card">
+                <a href="https://i.pinimg.com/736x/aa/15/eb/aa15eba3444b517ddb2e2f9af2443dde.jpg" data-lightbox="tamannasional">
+                    <img src="https://i.pinimg.com/736x/aa/15/eb/aa15eba3444b517ddb2e2f9af2443dde.jpg" class="card-img-top" alt="Bromo Tengger Semeru">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Jiuzhaigou Valley</h5>
+                    <p class="card-text"><strong>Cagar alam</strong> menakjubkan yang terkenal dengan danau bertingkat berwarna pirus, air terjun multi-lapis, dan pegunungan karst bersalju.</p></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card">
+                <a href="https://i.pinimg.com/736x/6b/ea/3b/6bea3bf9d78d92ae935a320830bd4bef.jpg" data-lightbox="tamannasional">
+                    <img src="https://i.pinimg.com/736x/6b/ea/3b/6bea3bf9d78d92ae935a320830bd4bef.jpg" class="card-img-top" alt="Ujung Kulon">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Heaven Lake / Tian Chi</h5>
+                    <p class="card-text">Danau <strong>alpine</strong> memukau yang terletak di lereng Pegunungan Bogda, dikelilingi hutan hijau lebat dan puncak bersalju.</p></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card">
+                <a href="https://i.pinimg.com/736x/49/f8/22/49f822fc7e2172ec990b7ef2a5738185.jpg" data-lightbox="tamannasional">
+                    <img src="https://i.pinimg.com/736x/49/f8/22/49f822fc7e2172ec990b7ef2a5738185.jpg" class="card-img-top" alt="Pulau Komodo">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold   ">Wulong Karst</h5>
+                    <p class="card-text"> Situs Warisan Dunia <strong>UNESCO</strong> dengan jembatan batu alam terbesar di Asia serta ngarai dan formasi gua yang megah. </p></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card">
+                <a href="https://i.pinimg.com/1200x/9a/9c/d2/9a9cd2030a6bf56a7b72a3ee7ff9b037.jpg" data-lightbox="tamannasional">
+                    <img src="https://i.pinimg.com/1200x/9a/9c/d2/9a9cd2030a6bf56a7b72a3ee7ff9b037.jpg" class="card-img-top" alt="Tanjung Puting">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Li River & Yangshuo</h5>
+                    <p class="card-text">Menawarkan <strong> pedesaan</strong> yang tenang dengan latar belakang pegunungan karst dramatis yang dialiri sungai jernih.</p></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+ <!-- SECTION FOOTER -->
+<div class="container-fluid py-5 footer">
+    <div class="container">
+
+       
+        <h5 class="text-center text-light mb-3">Temui Kami</h5>
+
+        <div class="d-flex justify-content-center mb-5" style="gap: 70px">
+            <a href="https://facebook.com/username" target="_blank" class="social-icon">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://instagram.com/username" target="_blank" class="social-icon">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://twitter.com/username" target="_blank" class="social-icon">
+                 <i class="bi bi-twitter-x"></i>
+            </a>
+            <a href="https://youtube.com/@username" target="_blank" class="social-icon">
+                <i class="bi bi-youtube"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<footer class="bg-dark text-light py-5">
+    <div class="container">
+        <div class="row text-center text-md-start g-4">
+
+            <div class="col-md-6 col-lg-3">
+                <h5 class="fw-bold mb-3" style="color: var(--tropical-cyan);">TripSantuy</h5>
+                <p class="text-kontak mb-0">Menyediakan pengalaman wisata yang tak terlupakan di berbagai destinasi menarik di Indonesia.</p>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <h6 class="fw-bold mb-3">Navigasi Utama</h6>
+                <ul class="list-unstyled mb-0">
+                    <li class="me-3">
+                        <a href="beranda.html" class="text-nav-bawah">Home</a>
+                    </li>
+                    <li>
+                        <a href="jepang.html" class="text-nav-bawah">Jepang</a>
+                    </li>
+                    <li>
+                        <a href="" class="text-nav-bawah">China</a>
+                    </li>
+                     <li>
+                        <a href="iceland.html" class="text-nav-bawah">Iceland</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <h6 class="fw-bold mb-3">Destinasi</h6>
+                <ul class="list-unstyled mb-0">
+                    <li class="me-3">
+                        <a href="panda.html" class="text-nav-bawah">Pusat Penelitian Panda</a>
+                    </li>
+                    <li>
+                        <a href="The Great Wall" class="text-nav-bawah">The Great Wall</a>
+                    </li>
+                    <li>
+                        <a href="forbidencity.html" class="text-nav-bawah">Forbiden city</a>
+                    </li>
+                    <li>
+                        <a href="zhangjia.html" class="text-nav-bawah">Zhangjiajia National Park</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Kolom 4: Kontak -->
+            <div class="col-md-6 col-lg-3">
+                <h6 class="fw-bold mb-3">Kontak</h6>
+                <ul class="text-kontak list-unstyled mb-0">
+                    <li class="mb-2">
+                        <i class="bi bi-geo-alt-fill me-2" style="color: var(--tropical-cyan);"></i>Jl. Contoh No. 123, Surabaya
+                    </li>
+                    <li class="mb-2">
+                        <i class="bi bi-telephone-fill me-2" style="color: var(--tropical-cyan);"></i>+62 812 3456 7890
+                    </li>
+                    <li>
+                        <i class="bi bi-envelope-fill me-2" style="color: var(--tropical-cyan);"></i>Tripsantuy@email.com
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Garis Pembatas & Copyright -->
+        <hr class="border-secondary mt-5 mb-4">
+        <p class="text-center text-muted small mb-0">
+            &copy; 2026 TripSantuy. All Rights Reserved.
+        </p>
+    </div>
+</footer>
+
+<!-- Tombol Scroll to Top -->
+<button id="scrollToTopBtn" class="scroll-to-top-btn">
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox-plus-jquery.min.js">
+</script>
+
+<script src="beranda.js"></script>
+</body>
+</html>
