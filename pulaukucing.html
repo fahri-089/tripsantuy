@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripSantuy</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- lightbox -->
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- icon -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="pulaukucing.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="#">
+            TripSantuy
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav mx-auto">
+                 <li class="nav-item"><a class="nav-link" href="beranda.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="beranda.html">Indonesia</a></li>
+                <li class="nav-item"><a class="nav-link active" href="jepang.html">Jepang</a></li>
+                <li class="nav-item"><a class="nav-link" href="china.html">China</a></li>
+                <li class="nav-item"><a class="nav-link" href="iceland.html">Iceland</a></li>
+            </ul>
+
+            <div class="d-flex gap-3 align-items-center">
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                <button class="btn btn-warning" type="submit">Search</button>
+      </form>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<!-- hero -->
+<div class="container-fluid banner overflow-hidden position-relative">
+    <!-- Background -->
+    <img src="https://i.pinimg.com/1200x/fb/9b/38/fb9b38d9d62c153ee9fd2067887aa9b7.jpg" alt="Background" class="img-fluid w-100 h-100 position-absolute top-0 start-0 object-fit-cover">
+
+    <!-- Overlay & Konten -->
+    <div class="container text-center position-relative" style="z-index: 2;">
+        <h2 class="text-light display-5 mb-1">
+            Pulau <span>Kucing</span>
+        </h2>
+        <p class="text-light opacity-75 fw-bold mb-4">Jelajahi Pulau Kucing dengan keindahan alamnya</p>
+        <a href="#eksplor" class="btn btn-tropical">Mulai Petualangan</a>
+    </div>
+</div>
+
+<div class="px-4 px-md-5">
+    <h5 class="text-muted text-center mt-5 mb-4">BY <strong class="fw-bold">TripSantuy</strong></h5><hr>
+    <p class="paragraft" style="text-align: justify; color: var(--deep-navy);">
+        Pulau Kucing, sebuah permata tersembunyi di tengah lautan, menawarkan pesona alam yang memukau dan keindahan yang luar biasa. Dengan pantai berpasir putih yang lembut, air laut yang jernih, dan kehidupan bawah laut yang kaya, pulau ini menjadi destinasi impian bagi para pecinta alam dan petualang. Di Pulau Kucing, Anda dapat menikmati ketenangan sambil menyaksikan matahari terbenam yang spektakuler, menjelajahi terumbu karang yang mempesona, atau sekadar bersantai di bawah naungan pohon kelapa. Keindahan alamnya yang menakjubkan menjadikan Pulau Kucing sebagai tempat yang sempurna untuk melarikan diri dari hiruk-pikuk kehidupan sehari-hari dan merasakan kedamaian sejati di tengah keindahan alam.
+    </p><hr>
+</div>
+
+ <!-- section experience -->
+<section class="rekomendasi-section py-5">
+
+    <div class="judul1">
+        <h2 class="text-center display-6 fw-bold mb-4" style="color: var(--deep-navy);">
+            Eksplorasi Pulau <span style="color: var(--tropical-cyan);">Kucing</span>
+        </h2>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row align-items-center gy-5">
+            <!-- Bagian Teks -->
+            <div class="col-lg-6 text-start pe-lg-5">
+                <h6 class="text-uppercase fw-bold mb-2" style="color: var(--sunset-orange); letter-spacing: 2px;">
+                    Surganya Pecinta Kucing
+                </h6>
+                <h3 class="display-6 fw-bold mb-4" style="color: var(--deep-navy);">
+                    Abadikan Moment Lucu Dengan <span style="color: var(--tropical-cyan);">Kucing</span> Yang Imut
+                </h3>
+                <p class="lead text-muted mb-4">
+                    Pulau Kucing bukan hanya surga bagi pecinta alam, tetapi juga bagi para pecinta kucing. Di pulau ini, Anda akan disambut oleh kucing-kucing yang lucu dan ramah yang berkeliaran bebas di sekitar pantai dan jalan setapak.
+                </p>
+
+            </div>
+
+            <!-- Bagian Gambar -->
+            <div class="col-lg-6">
+                <div class="image-wrapper position-relative">
+                    <img src="https://i.pinimg.com/1200x/49/4a/78/494a780e8be0e6ba222082a25c4da727.jpg" 
+                    class="image-rekomendasi img-fluid rounded-5 shadow-lg w-100" 
+                    alt="Keindahan Bawah Laut Bunaken"
+                    style="object-fit: cover; height: 450px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- daftar kegiatan -->
+<section class="kegiatan mt-5 py-5" id="eksplor">
+    <div class="container">
+        <h2 class="text-center display-6 fw-bold mb-4" style="color: var(--deep-navy);">
+            Aktivitas Seru di <span style="color: var(--tropical-cyan);">Pulau Kucing</span>
+        </h2>
+
+        <div class="row justify-content-center">
+
+        <!-- Card 1 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card h-100">
+                <a href="https://i.pinimg.com/1200x/e3/39/d3/e339d31da13cb49f1b8ecd1a240b26d1.jpg" data-lightbox="kegiatan">
+                    <img src="https://i.pinimg.com/1200x/e3/39/d3/e339d31da13cb49f1b8ecd1a240b26d1.jpg" class="card-img-top" alt="Pulau Labengki">
+                </a>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title mb-3 fw-bold">Memberi Makan</h5>
+                    <p class="card-text flex-grow-1">Anda bisa memberi makan kucing-kucing di Pulau Kucing dan menikmati momen yang <strong>lucu dan menyenangkan.</strong></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card h-100">
+                <a href="https://i.pinimg.com/736x/66/66/21/666621f3668fcbdca76085057e59fcd5.jpg" data-lightbox="kegiatan">
+                    <img src="https://i.pinimg.com/736x/66/66/21/666621f3668fcbdca76085057e59fcd5.jpg" class="card-img-top" alt="Pulau Widi">
+                </a>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title mb-3 fw-bold">Kuil Kucing</h5>
+                    <p class="card-text flex-grow-1">Anda bisa singgah di kuil lokal yang didedikasikan khusus untuk <strong>menghormati</strong> kucing. </p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 (Sudah Disamakan) -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card h-100">
+                <a href="https://i.pinimg.com/736x/5b/d1/3e/5bd13eb91c3ec7e7fbbf93981a369629.jpg" data-lightbox="kegiatan">
+                    <img src="https://i.pinimg.com/736x/5b/d1/3e/5bd13eb91c3ec7e7fbbf93981a369629.jpg" class="card-img-top" alt="Wakatobi">
+                </a>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title mb-3 fw-bold">Pemandangan</h5>
+                    <p class="card-text flex-grow-1">Nikmati pemandangan yang <strong>memukau</strong> dari lokasi strategis di Pulau Kucing.</p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+ <!-- SECTION FOOTER -->
+<div class="container-fluid py-5 footer">
+    <div class="container">
+
+       
+        <h5 class="text-center text-light mb-3">Temui Kami</h5>
+
+        <div class="d-flex justify-content-center mb-5" style="gap: 70px">
+            <a href="https://facebook.com/username" target="_blank" class="social-icon">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://instagram.com/username" target="_blank" class="social-icon">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://twitter.com/username" target="_blank" class="social-icon">
+                 <i class="bi bi-twitter-x"></i>
+            </a>
+            <a href="https://youtube.com/@username" target="_blank" class="social-icon">
+                <i class="bi bi-youtube"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<footer class="bg-dark text-light py-5">
+    <div class="container">
+        <div class="row text-center text-md-start g-4">
+
+            <div class="col-md-6 col-lg-3">
+                <h5 class="fw-bold mb-3" style="color: var(--tropical-cyan);">TripSantuy</h5>
+                <p class="text-kontak mb-0">Menyediakan pengalaman wisata yang tak terlupakan di berbagai destinasi menarik di Indonesia.</p>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <h6 class="fw-bold mb-3">Navigasi Utama</h6>
+                <ul class="list-unstyled mb-0">
+                    <li class="me-3">
+                        <a href="beranda.html" class="text-nav-bawah">Home</a>
+                    </li>
+                    <li>
+                        <a href="beranda.html" class="text-nav-bawah">Indonesia</a>
+                    </li>
+                    <li>
+                        <a href="" class="text-nav-bawah">China</a>
+                    </li>
+                     <li>
+                        <a href="iceland.html" class="text-nav-bawah">Iceland</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <h6 class="fw-bold mb-3">Destinasi</h6>
+                <ul class="list-unstyled mb-0">
+                    <li class="me-3">
+                        <a href="dontobori.html" class="text-nav-bawah">Dontobori</a>
+                    </li>
+                    <li>
+                        <a href="gunungfuji.html" class="text-nav-bawah">Gunung Fuji</a>
+                    </li>
+                    <li>
+                        <a href="FushimiInari.html" class="text-nav-bawah">Fushimi Inari</a>
+                    </li>
+                    <li>
+                        <a href="pulaukucing.html" class="text-nav-bawah">Pulau Kucing</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Kolom 4: Kontak -->
+            <div class="col-md-6 col-lg-3">
+                <h6 class="fw-bold mb-3">Kontak</h6>
+                <ul class="text-kontak list-unstyled mb-0">
+                    <li class="mb-2">
+                        <i class="bi bi-geo-alt-fill me-2" style="color: var(--tropical-cyan);"></i>Jl. Contoh No. 123, Surabaya
+                    </li>
+                    <li class="mb-2">
+                        <i class="bi bi-telephone-fill me-2" style="color: var(--tropical-cyan);"></i>+62 812 3456 7890
+                    </li>
+                    <li>
+                        <i class="bi bi-envelope-fill me-2" style="color: var(--tropical-cyan);"></i>Tripsantuy@email.com
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+       
+        <hr class="border-secondary mt-5 mb-4">
+        <p class="text-center text-muted small mb-0">
+            &copy; 2026 TripSantuy. All Rights Reserved.
+        </p>
+    </div>
+</footer>
+
+<!-- Tombol Scroll to Top -->
+<button id="scrollToTopBtn" class="scroll-to-top-btn">
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox-plus-jquery.min.js"></script>
+<script src="beranda.js"></script>
+</body>
+</html>
