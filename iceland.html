@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripSantuy</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- lightbox -->
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- icon -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="china.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="#">
+            TripSantuy
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="beranda.html">Indonesia</a></li>
+                <li class="nav-item"><a class="nav-link" href="jepang.html">Jepang</a></li>
+                <li class="nav-item"><a class="nav-link" href="china.html">China</a></li>
+                <li class="nav-item"><a class="nav-link active" href="iceland.html">Iceland</a></li>
+            </ul>
+
+            <div class="d-flex gap-3 align-items-center">
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                <button class="btn btn-warning" type="submit">Search</button>
+      </form>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<!-- hero -->
+<div class="container-fluid banner overflow-hidden position-relative">
+    <!-- Video Background -->
+    <video autoplay muted loop playsinline class="video-bg">
+        <source src="Iceland I 4K cinematic.mp4" type="video/mp4">
+    </video>
+
+    <!-- Overlay & Konten -->
+    <div class="container position-relative" style="z-index: 2;">
+        <h2 class="text-light display-5 mb-1">
+            Sudah Siap <br>berkeliling <br><span>Iceland</span>
+        </h2>
+        <p class="text-light opacity-75 fw-bold mb-4">Temukan destinas<br> yang belum pernah <br>kamu temukan sebelumnya.</p>
+        <a href="#eksplor" class="btn btn-tropical">Mulai Petualangan</a>
+    </div>
+</div>
+
+<!-- selamat datang iceland -->
+<section class="tentang-china mb-5">
+    <div class="container">
+        <div class="selamat-datang">
+        <h2 class="text-center display-6 fw-bold mb-4" style="color: var(--deep-navy);">
+            Wel<span style="color: var(--tropical-cyan);">come</span>
+        </h2>
+    </div>
+
+        <div class="row align-items-center gy-5">
+            <div class="col-lg-6">
+                <img src="https://i.pinimg.com/1200x/39/0e/f5/390ef595fc22b2ebfd8af38cb4beadd7.jpg" alt="Tentang Indonesia" class="img-fluid rounded-5 shadow-lg w-100">
+            </div>
+            <div class="col-lg-6 text-start ps-lg-5">
+                <h6 class="text-uppercase fw-bold mb-2" style="color: var(--sunset-orange); letter-spacing: 2px;">
+                    Selamat Datang di Iceland
+                </h6>
+                <h3 class="display-6 fw-bold mb-4" style="color: var(--deep-navy);">
+                "negeri api dan es"
+                </h3>
+                <p class="lead text-muted mb-4">
+                    Jelajahi keajaiban alam yang memukau, mulai dari gletser yang megah hingga air terjun yang menakjubkan, semuanya dalam satu perjalanan santuy di Iceland.
+                </p>
+                <a href="#eksplor" class="btn btn-tropical px-5 py-3 fw-bold">Jelajahi Sekarang</a>
+            </div>
+    </div>
+</section>
+
+<!-- destinasi populer di Iceland -->
+<div class="container text-center my-5" id="eksplor">
+    <h2 class="mb-3">Destinasi Populer di <span style="color: var(--sunset-orange);">Iceland</span></h2>
+    <p class="mb-4">Jelajahi keindahan alam dan budaya Iceland dengan cara yang santuy.</p>
+</div>
+
+
+<div class="container my-5">
+  <div class="row g-3">
+    <div class="col-md-4">
+      <div class="card-overlay position-relative overflow-hidden rounded-4">
+        <img src="https://i.pinimg.com/1200x/47/44/a4/4744a4fa27485af2e219580faad0b79e.jpg"
+             class="card-img-overlay-bg"
+             alt="Destinasi Bali">
+        <div class="card-overlay-content position-absolute bottom-0 start-0 w-100 p-4 text-white">
+          <h5 class="card-title mb-2">Reykjavík</h5>
+          <p class="card-text text-light fw-bold mb-3">
+             Ibu kota Islandia yang trendi, tempat Anda bisa mengunjungi gereja ikonik Hallgrímskirkja dan menikmati kehidupan malam serta budaya setempat
+          </p>
+          <a href="ibukota.html" class="btn btn-tropical">Lebih Lanjut</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card-overlay position-relative overflow-hidden rounded-4">
+        <img src="https://i.pinimg.com/1200x/7a/60/d0/7a60d0d1d6172e61a6c5eb4f1586cd2e.jpg"
+             class="card-img-overlay-bg"
+             alt="Destinasi Borobudur">
+        <div class="card-overlay-content position-absolute bottom-0 start-0 w-100 p-4 text-white">
+          <h5 class="card-title mb-2">Blue Lagoon</h5>
+          <p class="card-text text-light fw-bold mb-3">
+            Spa panas bumi paling ikonis di dunia dengan air kaya mineral berwarna biru susu, terletak di tengah hamparan ladang lava hitam.
+          </p>
+         <a href="bluelagoon.html" class="btn btn-tropical">Lebih Lanjut</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card-overlay position-relative overflow-hidden rounded-4">
+        <img src="https://i.pinimg.com/1200x/db/bf/4d/dbbf4d7f3e281412503c4a7d4d0d448f.jpg"
+             class="card-img-overlay-bg"
+             alt="Destinasi Labuan Bajo">
+        <div class="card-overlay-content position-absolute bottom-0 start-0 w-100 p-4 text-white">
+          <h5 class="card-title mb-2">Taman Nasional Thingvellir</h5>
+          <p class="card-text text-light fw-bold mb-3">
+             Situs Warisan Dunia UNESCO di mana Anda bisa melihat celah tektonik antara lempeng benua Amerika Utara dan Eurasia.
+          </p>
+          <a href="tamannasional.html" class="btn btn-tropical">Lebih Lanjut</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Rekomendasi wisata -->
+<section class="rekomendasi-section py-5">
+    <div class="container">
+        <div class="row align-items-center gy-5">
+
+    <div class="rekomendasi">
+        <h2 class="text-center display-6 fw-bold mb-4" style="color: var(--deep-navy);">
+            Eksplorasi <span style="color: var(--tropical-cyan);">Iceland</span>
+        </h2>
+    </div>
+
+
+            <!-- Bagian Teks -->
+            <div class="col-lg-6 text-start pe-lg-5">
+                <h6 class="text-uppercase fw-bold mb-2" style="color: var(--sunset-orange); letter-spacing: 2px;">
+                    Pencinta Satwa
+                </h6>
+                <h3 class="display-6 fw-bold mb-4" style="color: var(--deep-navy);">
+                    saksikan keajaiban dunia<span style="color: var(--tropical-cyan);">Sigöldugljúfur</span>/The Valley of Tears
+                </h3>
+                <p class="lead text-muted mb-4">
+                    Terletak di dataran tinggi Islandia, Sigöldugljúfur adalah ngarai yang menakjubkan dengan air terjun yang mengalir deras, dikelilingi oleh tebing curam dan formasi batuan vulkanik yang unik. 
+                </p>
+                
+                <ul class="list-unstyled mb-4 custom-list">
+                    <li class="mb-3 d-flex align-items-center">
+                        <i class="bi bi-camera-fill me-3" style="color: var(--tropical-cyan);"></i> 
+                       Abadikan Moment menakjubkan dari ngarai ini dengan air terjun yang spektakuler.
+                    </li>
+                    <li class="mb-3 d-flex align-items-center">
+                        <i class="bi bi-person-walking me-3" style="color: var(--tropical-cyan);"></i> 
+                       Jelajahi jalur hiking yang menantang untuk mendapatkan pemandangan terbaik..
+                    </li>
+                    <li class="mb-3 d-flex align-items-center">
+                        <i class="bi bi-water me-3" style="color: var(--tropical-cyan);"></i> 
+                       Nikmati keindahan alam yang belum terjamah di tempat ini.
+                    </li>
+                </ul>
+                
+                <div class="mt-4">
+                    <a href="tearsofvalley.html" class="btn btn-tropical px-5 py-3 fw-bold">Lihat Selengkapnya</a>
+                </div>
+            </div>
+
+            <!-- Bagian Gambar -->
+            <div class="col-lg-6">
+                <div class="image-wrapper position-relative">
+                    <img class="image-rekomendasi" src="https://i.pinimg.com/1200x/48/b9/bf/48b9bfdfa0b8b506b6262d58a08dd3e2.jpg" 
+                         class="img-fluid rounded-5 shadow-lg w-100" 
+                         alt="Keindahan Bawah Laut Bunaken"
+                         style="object-fit: cover; height: 450px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- section Hiddengem -->
+<section class="hiddengem-section py-5 bg-light">
+    <div class="container text-center">
+        <h3 class="display-6 fw-bold mb-4" style="color: var(--deep-navy);">
+            Keindahan Yang <span style="color: var(--tropical-cyan);">Tersembunyi</span>
+        </h3>
+        <p class="lead text-muted mb-4">
+            Di mana waktu seakan berhenti dan hanya ada harmoni antara Anda dan keindahan yang belum terjamah
+        </p>
+        <h6 class="text-uppercase fw-bold mb-2" style="color: var(--sunset-orange); letter-spacing: 2px;">
+            Hidden Gem
+        </h6>
+    </div>
+
+  <div class="container my-5 position-relative">
+
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="row justify-content-center mb-4">
+            <div class="col-sm-4 col-md3 col-lg-2 mb-2">
+                <div class="btn btn-outline-warning w-100 fs-5 filter-btn active" data-target="wisatabahari">Wisata Sejarah</div>
+            </div>
+            <div class="col-sm-4 col-md3 col-lg-2 mb-2">
+                <div class="btn btn-outline-warning w-100 fs-5 filter-btn" data-target="wisatapegunungan">Wisata Modern</div>
+            </div>
+            <div class="col-sm-4 col-md3 col-lg-2 mb-2">
+                <div class="btn btn-outline-warning w-100 fs-5 filter-btn" data-target="tamannasional">Wisata Alam Menakjubkan</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="wisatabahari" class="hiddengem-section">
+    <div class="row justify-content-center">
+        <!-- Card 1 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card h-100">
+                <a href="https://i.pinimg.com/1200x/39/40/07/394007d13db4d0566b734d56a0a84e98.jpg" data-lightbox="wisatabahari">
+                    <img src="https://i.pinimg.com/1200x/39/40/07/394007d13db4d0566b734d56a0a84e98.jpg" class="card-img-top" alt="Temple of Heaven">
+                </a>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title mb-3 fw-bold">Taman Nasional Þingvellir</h5>
+                    <p class="card-text flex-grow-1">Lokasi bersejarah paling penting di Islandia. Di sinilah <strong>parlemen tertua</strong> di dunia, Althing, didirikan pada tahun 930 Masehi.</p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card h-100">
+                <a href="https://i.pinimg.com/1200x/51/1e/5e/511e5e5973f4865f8c27a36a2dbf6e25.jpg" data-lightbox="wisatabahari">
+                    <img src="https://i.pinimg.com/1200x/51/1e/5e/511e5e5973f4865f8c27a36a2dbf6e25.jpg" class="card-img-top" alt="Terracotta Army">
+                </a>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title mb-3 fw-bold">Eiríksstaðir Viking Longhouse</h5>
+                    <p class="card-text flex-grow-1">Terletakdi <strong>Islandia Barat</strong> , ini merupakan replika rumah rumput tradisional tempat tinggal penjelajah terkenal.</p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card h-100">
+                <a href="https://i.pinimg.com/1200x/cf/2b/56/cf2b563e59a02fd612e651bbb8ece16c.jpg" data-lightbox="wisatabahari">
+                    <img src="https://i.pinimg.com/1200x/cf/2b/56/cf2b563e59a02fd612e651bbb8ece16c.jpg" class="card-img-top" alt="Dunhuang">
+                </a>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title mb-3 fw-bold">Museum Nasional Islandia</h5>
+                    <p class="card-text flex-grow-1"> Tempat terbaik untuk mempelajari garis besar sejarah Islandia, dari zaman pemukiman <strong>Viking</strong> hingga era modern, </p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card h-100">
+                <a href="https://i.pinimg.com/1200x/85/ed/64/85ed64919ad72201035badb270f474fd.jpg" data-lightbox="wisatabahari">
+                    <img src="https://i.pinimg.com/1200x/85/ed/64/85ed64919ad72201035badb270f474fd.jpg" class="card-img-top" alt="Gili Trawangan">
+                </a>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title mb-3 fw-bold">Museum Terbuka Árbær</h5>
+                    <p class="card-text flex-grow-1">Terletak di <strong>Reykjavík</strong>, museum terbuka ini menampilkan deretan bangunan dan rumah tradisional beratap rumput dari abad ke-19 dan ke-20</p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="wisatapegunungan" class="hiddengem-section" style="display: none;">
+    <div class="row justify-content-center">
+
+        <!-- 1 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card">
+                <a href="https://i.pinimg.com/736x/80/c3/f2/80c3f23bb0f3f577e64898957a0f5161.jpg" data-lightbox="wisatapegunungan">
+                  <img src="https://i.pinimg.com/736x/80/c3/f2/80c3f23bb0f3f577e64898957a0f5161.jpg" class="card-img-top" alt="gunung rinjani">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Hallgrimskirkja</h5>
+                    <p class="card-text">  Gereja ikonis di <strong>Reykjavik</strong> dengan desain arsitektur ekspresionis setinggi 73 meter yang terinspirasi dari formasi batuan basal. </p></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card">
+                <a href="https://i.pinimg.com/1200x/9e/44/7a/9e447aac4e3d6d615d82b18311bcbcb9.jpg" data-lightbox="wisatapegunungan">
+                    <img src="https://i.pinimg.com/1200x/9e/44/7a/9e447aac4e3d6d615d82b18311bcbcb9.jpg" class="card-img-top" alt="Gunung Penanggungan">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Perlan</h5>
+                    <p class="card-text">  Pusat <strong>pameran</strong> dan landmark futuristik berupa kubah kaca di atas enam tangki air panas bumi.</p></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card">
+                <a href="https://i.pinimg.com/736x/6b/da/88/6bda88c21cb3a8a2da2ddc826fdc5f47.jpg" data-lightbox="wisatapegunungan">
+                    <img src="https://i.pinimg.com/736x/6b/da/88/6bda88c21cb3a8a2da2ddc826fdc5f47.jpg" class="card-img-top" alt="Gunung Kerinci">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">FlyOver Iceland</h5>
+                    <p class="card-text">Wahana <strong>simulasi penerbangan</strong> imersif di kawasan Grandi, Reykjavik, yang membawa Anda terbang melintasi lanskap Islandia menggunakan teknologi canggih.</strong></p></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card">
+                <a href="https://i.pinimg.com/1200x/5b/fe/ef/5bfeefd89e603b87ca403a0cc3560522.jpg" data-lightbox="wisatapegunungan">
+                    <img src="https://i.pinimg.com/1200x/5b/fe/ef/5bfeefd89e603b87ca403a0cc3560522.jpg" class="card-img-top" alt="Gunung Puncak Jaya">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Harpa Concert Hall</h5>
+                    <p class="card-text">Gedung konser pemenang <strong>penghargaan arsitektur</strong> dengan fasad kaca unik yang memantulkan cahaya, terinspirasi oleh lanskap kristal dan kolom basal Islandia.</p></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="tamannasional" class="hiddengem-section" style="display: none;">
+    <div class="row justify-content-center">
+
+<!-- 1 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card">
+                <a href="https://i.pinimg.com/1200x/0c/45/d9/0c45d982bb8e6986680e3d45d155b371.jpg" data-lightbox="tamannasional">
+                    <img src="https://i.pinimg.com/1200x/0c/45/d9/0c45d982bb8e6986680e3d45d155b371.jpg" class="card-img-top" alt="Bromo Tengger Semeru">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Jökulsárlón</h5>
+                    <p class="card-text">Laguna <strong>glasial</strong> menakjubkan yang dipenuhi bongkahan es raksasa berwarna biru kristal yang mengapung perlahan ke laut.</p></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card">
+                <a href="https://i.pinimg.com/1200x/b1/19/03/b1190393d6e8462f5638d6470cf8fa3f.jpg" data-lightbox="tamannasional">
+                    <img src="https://i.pinimg.com/1200x/b1/19/03/b1190393d6e8462f5638d6470cf8fa3f.jpg" class="card-img-top" alt="Ujung Kulon">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Diamond Beach</h5>
+                    <p class="card-text">Pantai pasir <strong>hitam vulkanik</strong> di seberang Jökulsárlón, tempat bongkahan es yang terdampar berkilau bagai berlian di bawah cahaya matahari.</p></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card">
+                <a href="https://i.pinimg.com/736x/b3/4b/cd/b34bcd7192adb2a1f6bb3fe38d9a57a8.jpg" data-lightbox="tamannasional">
+                    <img src="https://i.pinimg.com/736x/b3/4b/cd/b34bcd7192adb2a1f6bb3fe38d9a57a8.jpg" class="card-img-top" alt="Pulau Komodo">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Area Geysir</h5>
+                    <p class="card-text">Kawasan <strong>panas bumi </strong>aktif di mana geyser Strokkur menyemburkan air panas hingga setinggi 20 meter setiap beberapa menit.
+                    </p></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="card">
+                <a href="https://i.pinimg.com/736x/5b/b6/53/5bb653e31c8714e592cb113d14bed56e.jpg" data-lightbox="tamannasional">
+                    <img src="https://i.pinimg.com/736x/5b/b6/53/5bb653e31c8714e592cb113d14bed56e.jpg" class="card-img-top" alt="Tanjung Puting">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Pantai Reynisfjara</h5>
+                    <p class="card-text"> Pantai <strong>pasir hitam</strong> paling terkenal dengan formasi kolom batuan basal dramatis dan ombak Atlantik yang kuat.</p></p>
+                    <p class="mata lead text-muted mt-auto mb-0">TripSantuy</p>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+ <!-- SECTION FOOTER -->
+<div class="container-fluid py-5 footer">
+    <div class="container">
+
+       
+        <h5 class="text-center text-light mb-3">Temui Kami</h5>
+
+        <div class="d-flex justify-content-center mb-5" style="gap: 70px">
+            <a href="https://facebook.com/username" target="_blank" class="social-icon">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://instagram.com/username" target="_blank" class="social-icon">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://twitter.com/username" target="_blank" class="social-icon">
+                 <i class="bi bi-twitter-x"></i>
+            </a>
+            <a href="https://youtube.com/@username" target="_blank" class="social-icon">
+                <i class="bi bi-youtube"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<footer class="bg-dark text-light py-5">
+    <div class="container">
+        <div class="row text-center text-md-start g-4">
+
+            <div class="col-md-6 col-lg-3">
+                <h5 class="fw-bold mb-3" style="color: var(--tropical-cyan);">TripSantuy</h5>
+                <p class="text-kontak mb-0">Menyediakan pengalaman wisata yang tak terlupakan di berbagai destinasi menarik di Indonesia.</p>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <h6 class="fw-bold mb-3">Navigasi Utama</h6>
+                <ul class="list-unstyled mb-0">
+                    <li class="me-3">
+                        <a href="beranda.html" class="text-nav-bawah">Home</a>
+                    </li>
+                    <li>
+                        <a href="jepang.html" class="text-nav-bawah">Jepang</a>
+                    </li>
+                    <li>
+                        <a href="" class="text-nav-bawah">China</a>
+                    </li>
+                     <li>
+                        <a href="iceland.html" class="text-nav-bawah">Iceland</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <h6 class="fw-bold mb-3">Destinasi</h6>
+                <ul class="list-unstyled mb-0">
+                    <li class="me-3">
+                        <a href="tearsofvalley.html" class="text-nav-bawah">The Valley of Thers</a>
+                    </li>
+                    <li>
+                        <a href="bluelagoon.html" class="text-nav-bawah">Blue Lagoon</a>
+                    </li>
+                    <li>
+                        <a href="tamannasional.html" class="text-nav-bawah">Taman Nasional Thingvellir</a>
+                    </li>
+                    <li>
+                        <a href="ibukota.html" class="text-nav-bawah">Reykjavík</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Kolom 4: Kontak -->
+            <div class="col-md-6 col-lg-3">
+                <h6 class="fw-bold mb-3">Kontak</h6>
+                <ul class="text-kontak list-unstyled mb-0">
+                    <li class="mb-2">
+                        <i class="bi bi-geo-alt-fill me-2" style="color: var(--tropical-cyan);"></i>Jl. Contoh No. 123, Surabaya
+                    </li>
+                    <li class="mb-2">
+                        <i class="bi bi-telephone-fill me-2" style="color: var(--tropical-cyan);"></i>+62 812 3456 7890
+                    </li>
+                    <li>
+                        <i class="bi bi-envelope-fill me-2" style="color: var(--tropical-cyan);"></i>Tripsantuy@email.com
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Garis Pembatas & Copyright -->
+        <hr class="border-secondary mt-5 mb-4">
+        <p class="text-center text-muted small mb-0">
+            &copy; 2026 TripSantuy. All Rights Reserved.
+        </p>
+    </div>
+</footer>
+
+<!-- Tombol Scroll to Top -->
+<button id="scrollToTopBtn" class="scroll-to-top-btn">
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox-plus-jquery.min.js">
+</script>
+
+<script src="beranda.js"></script>
+</body>
+</html>
